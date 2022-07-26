@@ -1,0 +1,22 @@
+body {
+    background-color: dimgray;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: chartreuse;
+
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    padding: 10px;
+}

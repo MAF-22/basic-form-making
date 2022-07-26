@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <form action="registered-data-user.php" method="get">
+        <h2>Register</h2>
+        <label for="username">Username</label><br>
+        <input type="text" required placeholder="username" autofocus><br>
+        <label for="email">Email</label><br>
+        <input type="email" required placeholder="example@email.com"><br>
+        <label for="password">Password</label><br>
+        <input type="password" required placeholder="password"><br>
+        <label for="password">Re-type Password</label><br>
+        <input type="password" required placeholder="re-type the password"><br>
+        <label for="pin">Enter a pin</label><br>
+        <input type="text" required placeholder="pin" maxlength="5"><br>
+        <label for="date-of-birth">Birthdate</label><br>
+        <input type="date" required><br>
+        <label for="gender">Gender</label><br>
+        <input type="radio" name="gender">
+        Male
+        <input type="radio" name="gender">
+        Female
+        <br>
+        <label for="profession">Profession</label><br>
+        <datalist id="profession">
+            <option>Student</option>
+            <option>Student</option>
+            <option>Student</option>
+            <option>Student</option>
+        </datalist>
+        <input type="text" list="profession"><br>
+        <label for="phone-number">Phone No.</label><br>
+        <input type="number" required placeholder="+8801XXXXXXXXX"><br><br>
+        <label for="text-area">Tell us something about yourself</label><br>
+        <textarea name="text-area" id="" cols="30" rows="10" placeholder="write here...."></textarea><br>
+        <input type="button" value="Submit">
+        <input type="button" value="Cancel">
+    </form>
+</body>
+
+</html>
